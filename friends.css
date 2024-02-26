@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#nav{
+    display: flex;
+    height: 50px !important;
+    /* width: 100vw !important; */
+}
+#nav h1{
+   list-style: none;
+   text-decoration: none;
+   margin: 10px 70px !important;
+}
+#nav h1 a{
+   list-style: none;
+   text-decoration: none;
+   color: black;
+}
+#nav h1{
+   list-style: none;
+   text-decoration: none;
+   margin: 10px 70px !important;
+}
+#nav input{
+    margin-left: 50vw !important;
+    padding: 20px 50px !important;
+    font-size: 20px !important;
+    border-radius: 11px !important;
+    margin-top: 10px !important;
+    margin-bottom: 8px !important;
+    background: none;
+    border: 0.7 solid gray;
+}
+hr{
+    margin-top: 10px !important;
+}
+
+
+/* ========================================================== */
+
+
+#sec{
+    display: flex;
+    
+}
+#sec li{
+    list-style: none;
+    gap: 70px !important;
+    text-align: center;
+    
+}
+#sec #btn{
+    margin-top: 17px !important;
+}
+#sec li a{
+    text-decoration: none;
+    gap: 80px !important;
+    color: black;
+    text-align: center;
+}
+#sec #btn1 a{
+    color: blue;
+    margin-left: 70px !important;
+}
+#sec #btn1 a:hover{
+    text-decoration: underline;
+}
+#sec li a span{
+    color: red;
+    
+}
+
+#sec #touch{
+   background-color: blue;
+   color: white;
+   cursor: pointer;
+   padding: 10px 20px !important;
+   font-size: 12px !important;
+   border: none;
+   border-radius: 11px !important;
+    margin: 20px 40px !important;
+    border: 1px solid blue !important;
+}
+#sec #touch:hover{
+   color: blue;
+   background-color: white;
+}
+#sec #touch1{
+   color: blue;
+   background-color:white;
+   cursor: pointer;
+   padding: 10px 20px !important;
+   font-size: 12px !important;
+   border: none;
+   border-radius: 11px !important;
+    margin: 20px 0px !important;
+    border: 1px solid blue !important;
+}
+#sec #touch1:hover{
+   background-color: blue;
+   color: white;
+}
+
+
+#sec #right{
+    display: flex;
+    text-align: center;
+    margin-left: 400px !important;
+    gap: 80px !important;
+}
+
+
+
+
+/* =============================================================== */
+
+.file{
+    display: flex;
+    text-align: center;
+    height: 100px !important;
+    /* width: 100vw !important; */
+    background-color: rgb(231, 238, 238);
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    margin-top: 40px !important;
+    border-radius: 30px !important;
+}
+.file .name{
+    margin-left: 70px !important;
+    margin-top: 25px !important;
+}
+.file .confirm{
+    margin-left: 370px !important;
+    margin-top: 30px !important;
+    padding: 10px 40px !important;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px !important;
+    border: 1px solid blue;
+}
+.file .confirm:hover{
+    color: blue;
+    background-color: white;
+}
+.file .delete{
+    margin-top: 30px !important;
+    padding: 10px 40px !important;
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px !important;
+    border: 1px solid blue;
+}
+.file .delete:hover{
+    background-color: blue;
+    color: white;
+}
+#profile img {
+    width: 8% !important;
+    height: 80px !important;
+    border-radius: 50% !important;
+    margin-left: 80px !important;
+    padding: 10px 10px !important;
+}
+
+
